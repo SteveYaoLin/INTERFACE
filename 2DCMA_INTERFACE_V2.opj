@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/21/25]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/24/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -18,7 +18,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\2DCMA_INTERFACE_V2.brd")
+    ("Allegro Netlist Output Board File" ".\allegro\2dcma_interface_v2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -53,21 +53,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\2dcma_interface_v2.dsn")
-      (Path "Design Resources" ".\2dcma_interface_v2.dsn" "YK-JK")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "d:\working\elco\2dcamera_v2\02_interface\2dcma_interface_v2.dsn")
+      (Path "Design Resources"
+         "d:\working\elco\2dcamera_v2\02_interface\2dcma_interface_v2.dsn"
+         "YK-JK")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "d:\working\elco\2dcamera_v2\02_interface\2dcma_interface_v2.dsn"
+         "YK-JK" "03.JK"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 737"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 727"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1515 28 783")
-        (Scroll "0 0")
-        (Zoom "86")
+        (Placement "44 0 1 -1 -1 5 28 5 1515 28 749")
+        (Scroll "0 692")
+        (Zoom "164")
         (Occurrence "/"))
       (Path "D:\WORKING\ELCO\2DCAMERA_V2\02_INTERFACE\2DCMA_INTERFACE_V2.DSN")
       (Schematic "YK-JK")
